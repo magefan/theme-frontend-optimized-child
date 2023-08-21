@@ -10,7 +10,7 @@
 # Installation
 
 ```
-mkdir app/design && mkdir app/design/frontend && mkdir app/design/frontend/Magefan
+mkdir -p app/design && mkdir -p app/design/frontend && mkdir -p app/design/frontend/Magefan
 cd app/design/frontend/Magefan/
 git clone https://github.com/magefan/theme-frontend-optimized-child.git optimized_child
 cd ../../../
