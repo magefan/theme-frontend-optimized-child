@@ -16,4 +16,6 @@ mkdir -p app/design && mkdir -p app/design/frontend && mkdir -p app/design/front
 cd app/design/frontend/Magefan/
 git clone https://github.com/magefan/theme-frontend-optimized-child.git optimized_child
 cd ../../../../
+bin/magento setup:upgrade --keep-generated
+bin/magento setup:static-content:deploy -f
 ```
