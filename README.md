@@ -9,6 +9,8 @@
 
 # Installation
 
+Run these CLI commands in your Magento root directory:
+
 ```
 mkdir -p app/design && mkdir -p app/design/frontend && mkdir -p app/design/frontend/Magefan
 cd app/design/frontend/Magefan/
